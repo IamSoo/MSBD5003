@@ -1,12 +1,9 @@
 import yaml
+import os
 
+cfg = "";
 
-class Config():
-    cfg = ""
-    def loadConfig(self,yamlFile):
-        print("Loading Config file {}",yamlFile)
-        with open(yamlFile,'r') as file:
-            self.cfg = yaml.load(file)
+currentFodler = os.path.abspath(os.path.dirname(__file__))
 
-    def getConfig(self):
-        return self.cfg
+with open(os.path.join(currentFodler, "config.yml"),'r') as file:
+    cfg = yaml.load(file,Loader=yaml.FullLoader)

@@ -1,11 +1,11 @@
 import unittest
-from home.jsonToCSVConverter import jsonToCSV
+from home.jsonToCSVConverter import JsonToCSV
 import home.config as config
 import os.path
 
 class TestAll(unittest.TestCase):
     def testJsonToCSV(self):
-        csvFile = jsonToCSV.getCSVFilePathFromTxtFile("https://s3-ap-southeast-1.amazonaws.com/5003-project/data/airlines.txt")
+        csvFile = JsonToCSV.getCSVFilePathFromTxtFile("https://s3-ap-southeast-1.amazonaws.com/5003-project/data/airlines.txt")
         self.assertEqual(csvFile,
                          "https://s3-ap-southeast-1.amazonaws.com/5003-project/data/airlines.csv",
                          "Should be end with CSV file")
