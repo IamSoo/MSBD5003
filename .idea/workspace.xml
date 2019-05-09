@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a89bf92e-3bbe-44bd-843a-cdc770e8d6df" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/home/prediction/SparkJob.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/home/prediction/sparkConfig.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/home/config.yml" afterPath="$PROJECT_DIR$/home/config.yml" />
-      <change beforePath="$PROJECT_DIR$/home/downloader/downLoadDataFromWeb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/config.py" afterPath="$PROJECT_DIR$/home/config.py" />
+      <change beforePath="$PROJECT_DIR$/home/jsonToCSVConverter/JsonToCSV.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/home/main.py" afterPath="$PROJECT_DIR$/home/main.py" />
-      <change beforePath="$PROJECT_DIR$/home/prediction/Predict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/home/utils/ConfigUtils.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/prediction/SparkJob.py" afterPath="$PROJECT_DIR$/home/prediction/SparkJob.py" />
       <change beforePath="$PROJECT_DIR$/home/utils/DynamodbUtils.py" afterPath="$PROJECT_DIR$/home/utils/DynamodbUtils.py" />
-      <change beforePath="$PROJECT_DIR$/home/utils/S3Utils.py" afterPath="$PROJECT_DIR$/home/utils/S3Utils.py" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/index.py" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/index.py" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/operations/prepare.py" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/operations/prepare.py" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/pyproject.py" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/pyproject.py" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/req/req_install.py" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/req/req_install.py" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel/bdist_wheel.py" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel/bdist_wheel.py" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel/wheelfile.py" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel/wheelfile.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -36,8 +42,8 @@
       <file leaf-file-name="S3Utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/utils/S3Utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+            <state relative-caret-position="300">
+              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -45,23 +51,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonToCSV.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/jsonToCSVConverter/JsonToCSV.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SparkJob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/prediction/SparkJob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="353">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,9 +66,11 @@
       <file leaf-file-name="DynamodbUtils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/utils/DynamodbUtils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="84" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="18" column="71" lean-forward="true" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,18 +78,30 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sparkConfig.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/prediction/sparkConfig.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,6 +124,8 @@
       <find>s3utils</find>
       <find>print</find>
       <find>venv</find>
+      <find>and</find>
+      <find>&amp;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,10 +147,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/home/downloader/downLoadDataFromWeb.py" />
         <option value="$PROJECT_DIR$/home/prediction/Predict.py" />
-        <option value="$PROJECT_DIR$/home/prediction/SparkJob.py" />
-        <option value="$PROJECT_DIR$/home/utils/DynamodbUtils.py" />
-        <option value="$PROJECT_DIR$/home/main.py" />
         <option value="$PROJECT_DIR$/home/utils/S3Utils.py" />
+        <option value="$PROJECT_DIR$/home/main.py" />
+        <option value="$PROJECT_DIR$/home/utils/DynamodbUtils.py" />
+        <option value="$PROJECT_DIR$/home/prediction/SparkJob.py" />
         <option value="$PROJECT_DIR$/home/config.yml" />
       </list>
     </option>
@@ -182,19 +194,12 @@
               <item name="project_workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_workspace" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonToCSVConverter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="prediction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,13 +211,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/home" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/home/prediction" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/home" />
-      <recent name="$PROJECT_DIR$/home/prediction" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,6 +391,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4419714" sideWeight="0.51231134" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.71405876" order="6" side_tool="false" content_ui="tabs" />
@@ -398,7 +404,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -489,16 +494,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/utils/S3Utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="61" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
@@ -527,7 +522,7 @@
         <state relative-caret-position="210">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -536,7 +531,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -551,7 +548,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -625,7 +624,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,14 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/utils/test.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/downloader/downLoadDataFromWeb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -802,46 +795,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/main.py">
+    <entry file="file://$PROJECT_DIR$/home/utils/test.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/utils/S3Utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        <state relative-caret-position="300">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/utils/DynamodbUtils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/prediction/SparkJob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="270">
+          <caret line="18" column="71" lean-forward="true" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -851,8 +826,46 @@
     <entry file="file://$PROJECT_DIR$/home/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/prediction/SparkJob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/prediction/sparkConfig.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
