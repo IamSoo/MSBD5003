@@ -1,8 +1,6 @@
 import boto3
 import urllib.request
 
-
-
 class S3Utils:
     def createS3Client(self,bucket,accessId,secret,region):
         client = boto3.resource("s3",
@@ -13,10 +11,8 @@ class S3Utils:
 
     def downloadDataUploadToBucket(self,client,bucketName,fileUrlToDownload,filePathToUpload):
         data = self.downloadDataFromWeb(fileUrlToDownload)
-        #print("Downloaded data is {}".format(data))
         print("filePathToUpload", filePathToUpload)
         object = client.Object(bucketName,filePathToUpload).put(Body=data)
-        #object.upload_file(filePathToUpload, ExtraArgs={'ACL': 'public-read'})
         object_acl = client.ObjectAcl(bucketName, filePathToUpload)
         object_acl.put(ACL='public-read')
         print("File {} is uploaded to bucket ".format(fileUrlToDownload))

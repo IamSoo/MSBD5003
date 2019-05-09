@@ -26,6 +26,10 @@ def fileDownLoadAndUpload(s3Client):
 									   config.cfg["aws"]["bucket_name"],
 									   config.cfg["api-urls"]["flights_url"],
 									   "data/flights.json")
+	s3utils.downloadDataUploadToBucket(s3Client,
+									   config.cfg["aws"]["bucket_name"],
+									   config.cfg["api-urls"]["airplanes_url"],
+									   "data/airplanes.json")
 
 if __name__=='__main__':
 	currentFodler = os.path.abspath(os.path.dirname(__file__))
