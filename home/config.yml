@@ -1,14 +1,2 @@
 project:
  name: MSBD5003
-aws:
-  aws_access_key_id: AKIAYHUHQBF5LHCHYOED
-  aws_secret_access_key: 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
-  region: us-east-2
-  bucket_name: 5003-project
-
-api-urls:
-  airlines_url: https://aviation-edge.com/v2/public/airlineDatabase?key=28bcf4-b436f8
-  airports_url: https://aviation-edge.com/v2/public/airportDatabase?key=28bcf4-b436f8
-  countries_url: https://aviation-edge.com/v2/public/countryDatabase?key=28bcf4-b436f8
-  airplanes_url: https://aviation-edge.com/v2/public/airplaneDatabase?key=28bcf4-b436f8
-  flights_url: http://aviation-edge.com/v2/public/flights?key=28bcf4-b436f8&limit=10000
