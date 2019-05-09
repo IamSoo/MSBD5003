@@ -1,5 +1,4 @@
 import boto3
-import pandas as pd
 import urllib.request
 
 
@@ -15,8 +14,13 @@ class S3Utils:
     def downloadDataUploadToBucket(self,client,bucketName,fileUrlToDownload,filePathToUpload):
         data = self.downloadDataFromWeb(fileUrlToDownload)
         #print("Downloaded data is {}".format(data))
-        client.Object(bucketName,filePathToUpload).put(Body=data)
+        print("filePathToUpload", filePathToUpload)
+        object = client.Object(bucketName,filePathToUpload).put(Body=data)
+        #object.upload_file(filePathToUpload, ExtraArgs={'ACL': 'public-read'})
+        object_acl = client.ObjectAcl(bucketName, filePathToUpload)
+        object_acl.put(ACL='public-read')
         print("File {} is uploaded to bucket ".format(fileUrlToDownload))
+
 
     def downloadDataFromWeb(self,fileUrlToDownload):
         with urllib.request.urlopen(fileUrlToDownload) as response:
